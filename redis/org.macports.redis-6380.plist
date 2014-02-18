@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd" >
+<plist version='1.0'>
+<dict>
+<key>Label</key><string>org.macports.redis-6380</string>
+<key>ProgramArguments</key>
+<array>
+	<string>/opt/local/bin/daemondo</string>
+	<string>--label=redis</string>
+	<string>--start-cmd</string>
+	<string>/opt/local/bin/redis-server</string>
+	<string>/opt/local/etc/redis-6380.conf</string>
+	<string>;</string>
+	<string>--pid=exec</string>
+</array>
+<key>Debug</key><false/>
+<key>Disabled</key><true/>
+<key>KeepAlive</key><true/>
+</dict>
+</plist>
